@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/row_post_profile_img"
+            android:src="@drawable/bk"
+            android:layout_marginStart="30dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/usersName"
+            android:gravity="start|center"
+            android:text="@string/mohammed_ali"
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/row_post_location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="35dp"
+        android:textSize="16sp"
+        android:background="@drawable/postedit"/>
+    <TextView
+        android:id="@+id/post_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:background="@color/white"
+        android:text=""
+        android:padding="12dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/row_post_img"
+        android:contentDescription="@string/todo" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "866421410123",
+    "project_id": "wonder-b600a",
+    "storage_bucket": "wonder-b600a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866421410123:android:b583fe1f224ed7dfa4c0ce",
+        "android_client_info": {
+          "package_name": "com.soumayaguenaguen.wonder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866421410123-nb6797nr2l0sad0ft0ufhqs4plfeljj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgH-dJcdMcjCnPBJbgTdyQKbaZpSTuy1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866421410123-nb6797nr2l0sad0ft0ufhqs4plfeljj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
